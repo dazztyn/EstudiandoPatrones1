@@ -4,12 +4,9 @@ import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 
-import jakarta.persistence.EntityManager;
-
 import cl.ucn.modelo.Asistente;
 import cl.ucn.modelo.Evento;
-
-
+import jakarta.persistence.EntityManager;
 
 
 public class ActualizarEvento 
@@ -27,6 +24,7 @@ public class ActualizarEvento
         em.getTransaction().commit();
         // ***********************************************************
 
+        //aqui va el agregar observer
         fileLogger.info("******************************* RESUMEN ******************************* ");
         List<Asistente> asistentes  = em.createQuery("from Asistente a", Asistente.class).getResultList();
         for (Asistente asistente2 : asistentes) {
