@@ -5,7 +5,7 @@ Nombre Estudiante:
 
 <hr>
 
-### Resultados de Aprendizaje
+### Resultados de Aprendizaje (FACADE / OBSERVER)
 
 1.	Aplicar patrones de diseño para crear un software de acuerdo a estándares de seguridad y desempeño
 2.  Caracterizar patrones de diseño de acuerdo a su nivel de aplicabilidad a los problemas.
